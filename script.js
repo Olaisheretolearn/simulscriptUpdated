@@ -34,15 +34,15 @@ function checkSimilarity() {
     // Set the progress bar width based on similarity score
     progressBar.style.width = `${similarity * 100}%`;
 
-    // Determine color and message based on similarity score
+
     if (similarity > 0.9) {
         resultDiv.textContent = "The codes are very similar! 🚩";
         resultDiv.style.color = "red";
         progressBar.style.backgroundColor = "red";
-    } else if (similarity > 0.7) {  // Adjust this threshold as needed
+    } else if (similarity > 0.7) {  
         resultDiv.textContent = `Fair Similarity: ${similarity.toFixed(2) * 100} %`;
-        resultDiv.style.color = "yellow";
-        progressBar.style.backgroundColor = "yellow";
+        resultDiv.style.color = "gold";
+        progressBar.style.backgroundColor = "gold";
     } else {
         resultDiv.textContent = `Low Similarity: ${similarity.toFixed(2) * 100} %`;
         resultDiv.style.color = "green";
