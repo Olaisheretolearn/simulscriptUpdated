@@ -717,6 +717,11 @@ video {
   clear: none;
 }
 
+.mx-2{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx-8{
   margin-left: 2rem;
   margin-right: 2rem;
@@ -855,12 +860,12 @@ video {
   display: none;
 }
 
-.h-80{
-  height: 20rem;
+.h-4{
+  height: 1rem;
 }
 
-.h-9{
-  height: 2.25rem;
+.h-80{
+  height: 20rem;
 }
 
 .w-1\/2{

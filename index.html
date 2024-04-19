@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tailwind CSS Project</title>
+  <title>Simulscript</title>
   <link href="./output.css" rel="stylesheet">
 </head>
 <body>
@@ -15,7 +15,10 @@
         <div class="text-4xl md:text-6xl font-extrabold">Simulscript</div>
       
       
-      <p class="text-center w-80 text-sm  p-8 md:w-1/2 lg:w-1/2"> Introducing a screen recording tool that simplifies your workflow like never before. Effortlessly record any screen, page, or tab with just a few clicks. When you're done, the recording automatically downloads, so you can instantly share or save it without hassle.</p>
+      <p class="text-center w-80 text-sm  p-8 md:w-1/2 lg:w-1/2"> Introducing SimulScript – a powerful and
+         efficient code comparison tool designed to streamline your workflow. Utilizing advanced cosine
+          similarity analysis,
+        SimulScript enables you to effortlessly compare and identify similarities between code snippets. </p>
         </div>
     
     
@@ -39,38 +42,41 @@
 
         <section class="mx-8">
             <div class="mt-8 flex flex-col gap-2 ">
-                <h2 class="font-extrabold text-3xl ">Features</h2>
-                <p class="text-black-300">Recaptiko is packed with a range of powerful features designed to make your screen recording experience seamless</p>
+                <h2 class="font-extrabold text-3xl ">How does it work?</h2>
+                <p class="text-black-300">Hold on to your glasses, because we're about to dive into the magic behind SimulScript</p>
             </div>
             <div class="flex flex-wrap align-center justify-between gap-3 mt-8 " >
 
-                <div class="border border-2 w-80 md:w-1/4">
-                    <div class="border border-black w-6 h-9 bg-black ml-3"> hi</div>
-                    <div class="font-extrabold text-2xl my-6">Free & easy to use</div>
-                    <div class="text-sm">
-                        At Recaptiko, we believe in simplicity and transparency. Record and download your screen recordings completely free
-                         of charge, without any hidden fees or surprises. 
-                        Our small team of developers is dedicated to providing you with an easy-to-use and efficient screen recording service.
+                <div class="border border-2 w-94 md:w-1/4">
+                    <div class="border border-black w-6 h-4 bg-black ml-3 mt-2"> </div>
+                    <div class="font-extrabold text-2xl my-6 mx-2">Tokenization</div>
+                    <div class="text-sm mx-2">
+                        SimulScript breaks down the code snippets into smaller parts such as keywords, variables, and symbols.
+                         This process is known as 
+                        tokenization, which is the first step in converting the text-based code into a numerical format.
                     </div>
                 </div>
 
 
-                <div class="border border-2  w-80 md:w-1/4">
-                    <div class="border border-black w-6 h-9 bg-black ml-3"> hi</div>
-                    <div class="font-extrabold text-2xl my-6">Free & easy to use</div>
-                    <div class="text-sm">
-                        At Recaptiko, we believe in simplicity and transparency. Record and download your screen recordings completely free
-                         of charge, without any hidden fees or surprises. 
-                        Our small team of developers is dedicated to providing you with an easy-to-use and efficient screen recording service.
+                <div class="border border-2  w-94 md:w-1/4">
+                    <div class="border border-black w-6 h-4 bg-black ml-3 mt-2"> </div>
+                    <div class="font-extrabold text-2xl my-6 mx-2">Vectorization</div>
+                    <div class="text-sm mx-2">
+                        In this stage, each token from the tokenization process is assigned a numerical value.
+                         These values are then used to create a vector representation of the code snippet in a high-dimensional space. 
+                        This allows the algorithm to compare and analyze the code snippets more effectively.
                     </div>
                 </div>
-                <div class="border border-2  w-80 md:w-1/4">
-                    <div class="border border-black w-6 h-9 bg-black ml-3"> hi</div>
-                    <div class="font-extrabold text-2xl my-6">Free & easy to use</div>
-                    <div class="text-sm ">
-                        At Recaptiko, we believe in simplicity and transparency. Record and download your screen recordings completely free
-                         of charge, without any hidden fees or surprises. 
-                        Our small team of developers is dedicated to providing you with an easy-to-use and efficient screen recording service.
+                <div class="border border-2  w-94 md:w-1/4">
+                    <div class="border border-black w-6 h-4 bg-black ml-3 mt-2"> </div>
+                    <div class="font-extrabold text-2xl my-6 mx-2">Cosine Similarity Calculation:</div>
+                    <div class="text-sm mx-2">
+                       The dot product of the vectors is determined, 
+                        and this value represents the cosine of the angle between the vectors. 
+                        This value is then normalized by the magnitude of each vector, resulting in 
+                        a cosine similarity score between -1 and 1. This score indicates the level of 
+                        similarity between the code snippets, 
+                        with a higher score indicating a greater degree of similarity.
                     </div>
                 </div>
              
